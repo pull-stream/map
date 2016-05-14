@@ -1,0 +1,31 @@
+{
+  "name": "pull-map",
+  "version": "0.0.0",
+  "description": "[].map for pull-streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pull-stream/map.git"
+  },
+  "keywords": [
+    "pull-stream",
+    "map"
+  ],
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pull-stream/map/issues"
+  },
+  "homepage": "https://github.com/pull-stream/map#readme",
+  "devDependencies": {
+    "pull-stream": "^3.3.2",
+    "standard": "^7.0.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "identity-function": "^1.0.0"
+  }
+}
